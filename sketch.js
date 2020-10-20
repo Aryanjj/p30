@@ -5,9 +5,7 @@ const Body = Matter.Body;
 const Constraint = Matter.Constraint;
 
 var ground, box1, box2, box3, box4, box5, launcher, box7, box6, box8, stand1, ball,bg,bgimg;
-function preload(){
-  getTime();
-}
+
 
 function setup() {
   createCanvas(800, 400);
