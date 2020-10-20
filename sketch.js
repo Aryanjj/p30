@@ -36,7 +36,7 @@ function draw() {
   // if(bgimg){
   // background(bgimg);
   // }
-  background("black");
+  background(0);
 
   ground.display();
   stand1.display();
@@ -88,5 +88,4 @@ function mouseReleased() {
 //       bg="bg1.jpg";
 //   }
 //   bgimg=loadImage(bg);
-//   // console.log(hour);
-// }
+// 
